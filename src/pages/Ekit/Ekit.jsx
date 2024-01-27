@@ -140,14 +140,14 @@ const Ekit = () => {
   return (
     <>
       <ReusableBanner
-        title="Huwaei eKit Digitizaltion Product"
+        title="Huawei eKit Digitalization Product"
         subText="Discover the power of Huawei eKit at Synergetics Global System. Whether you have questions about our comprehensive range of services, are eager to explore potential partnerships, or require expert technical support, our dedicated team is here to guide you. Connect with us today, and let's embark on a transformative journey towards cutting-edge ICT solutions together."
       />
       <section className="ekit__wrapper">
-        <div className="ekit--heading">
+        {/* <div className="ekit--heading">
           <h2></h2>
           <p></p>
-        </div>
+        </div> */}
 
         <div className="ekit__products">
           <div className="ekit__cards">

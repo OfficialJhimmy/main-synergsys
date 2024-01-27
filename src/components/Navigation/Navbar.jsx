@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../../assets/sgs-logo.png";
+import Logo from "../../assets/normal-logo.png";
 import { BiLogOut } from "react-icons/bi";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 
