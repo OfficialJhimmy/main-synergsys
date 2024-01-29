@@ -149,6 +149,19 @@ const Ekit = () => {
           <p></p>
         </div> */}
 
+        <div className="ekit__cards">
+          <h2>IdeaHub</h2>
+          <div className="ekit__cards--wrapper">
+            {idea.map((sm) => (
+              <div className="ekit__card" key={sm.title}>
+                <img src={sm.img} alt={sm.title} />
+                <h3>{sm.title}</h3>
+                <p>{sm.subTitle}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
         <div className="ekit__products">
           <div className="ekit__cards">
             <h2>SME Network</h2>
@@ -182,18 +195,6 @@ const Ekit = () => {
                   <img src={sm.img} alt={sm.title} />
                   <h3>{sm.title}</h3>
                   <p>{truncateSubtitle(sm.subTitle)}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="ekit__cards">
-            <h2>IdeaHub</h2>
-            <div className="ekit__cards--wrapper">
-              {idea.map((sm) => (
-                <div className="ekit__card" key={sm.title}>
-                  <img src={sm.img} alt={sm.title} />
-                  <h3>{sm.title}</h3>
-                  <p>{sm.subTitle}</p>
                 </div>
               ))}
             </div>
